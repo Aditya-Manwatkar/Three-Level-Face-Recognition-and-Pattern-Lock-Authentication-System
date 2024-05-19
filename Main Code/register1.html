@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register 1 | Three Level Facerecognition and Pattern lock Authentication system | Aditya Manwatkar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <style>
+        body{
+            background-image: url(images/nature1.jpeg);
+        }
+    </style>
+
+    <header>
+        <h2 class="logo">ADITYA</h2>
+         <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Sevices</a>
+            <a href="#">contact</a>
+           <button class="btnLogin-popup"><a href="login1.html"s>Login</a></button> 
+         </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon></span>
+
+        
+        <div class="form-box register ">
+            <h2>Registration</h2>
+            <form action="connect.php" method="POST">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required name="username">
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required name="email">
+                    
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required  name="password">
+                    <label>Password</label>
+                 </div>   
+                 <div class="remember-forget">
+                    <label><input type="checkbox">I agree to the terms & conditions</label>
+                 </div>
+                 
+                 <div class="login-register">
+                    <button onclick="movetonextlevel()" title="you will move to next login process" type="submit" class="btn"><a class="register-link">Submit & Next</a></button>
+                    <p>Already have an account? <a href="login1.html" class="login-link">Login</a></p>
+                 </div>
+            </form>
+    </div>
+    
+
+    
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function movetonextlevel() {
+         // Check if both fields are filled
+         if (username && password && email) {
+         // Redirect to the next page
+             window.location.href = 'register2.html'; // Replace with your desired URL
+         } else {
+             alert('Please fill in all required fields.');
+         }alert("Success, user registered")
+     }
+     </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ </body>   
+</html>
