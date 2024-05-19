@@ -3,6 +3,7 @@
 ## Overview
 
 Welcome to our Three-Level Authentication System! This project combines cutting-edge security with user-friendly features. Whether you're protecting your secret files or just your cat photos, we've got you covered.
+
 The most commonly used type of password for security purposes is text-based. However, these passwords can be easily compromised, putting personal data at risk. With the rise in cybercrime, login and access security threats have become a major concern. To enhance security, we’ve developed a Three-Level Password Authentication system. This system includes three levels of logins, each with a different type of password: Passphrase, Face Recognition, and Pattern lock. As users progress through the levels, the password complexity increases, ensuring more secure access. This Web-based Three-Level Authentication System helps users safeguard their data from hackers and cyber threats.
 
 ## INTRODUCTION
@@ -64,4 +65,4 @@ Our proposed Three-Level Face Recognition and Pattern Lock Authentication System
 
 - ADITYA MANWATKAR (https://github.com/Aditya-Manwatkar)
 - SHRUTI DHOTE 
-Feel free to contribute, report issues, or provide feedback!
+### Feel free to contribute, report issues, or provide feedback!
