@@ -67,4 +67,4 @@ Our proposed Three-Level Face Recognition and Pattern Lock Authentication System
 - SHRUTI DHOTE 
 ### Feel free to contribute, report issues, or provide feedback!
 
-## The Complete foldet for this project is store in "Main Code" folder in Same Reposistory.
+## The Complete folder for this project is store in "Main Code" folder in Same Repository.
