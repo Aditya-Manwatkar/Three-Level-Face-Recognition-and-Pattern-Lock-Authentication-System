@@ -66,3 +66,5 @@ Our proposed Three-Level Face Recognition and Pattern Lock Authentication System
 - ADITYA MANWATKAR (https://github.com/Aditya-Manwatkar)
 - SHRUTI DHOTE 
 ### Feel free to contribute, report issues, or provide feedback!
+
+## The Complete foldet for this project is store in "Main Code" folder in Same Reposistory.
